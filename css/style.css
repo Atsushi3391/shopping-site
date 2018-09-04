@@ -156,7 +156,8 @@ header .pc_header_menu {
     display: flex;
     flex-wrap: wrap; }
   #maincontents .product_box {
-    width: 32.3%; } }
+    width: 32.3%;
+    padding-right: 0; } }
 @media (min-width: 1000px) {
   #maincontents .product_box {
     width: 33%;
@@ -328,7 +329,8 @@ footer .copyright {
     margin-bottom: 2px; }
   @media (min-width: 550px) {
     #maincontents .product_list_all .product_box {
-      width: 32%; } }
+      width: 33%;
+      margin: 0 auto; } }
 #maincontents .pagenavi {
   width: 100%;
   margin: 20px 0; }
@@ -455,7 +457,7 @@ footer .copyright {
 #maincontents .procuct_information .price-quantity span.red {
   font-size: 22px;
   font-size: 2.2rem;
-  color: red; }
+  color: #e80f66; }
 #maincontents .procuct_information .price-quantity span.small {
   font-size: 14px;
   font-size: 1.4rem; }

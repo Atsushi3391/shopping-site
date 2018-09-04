@@ -225,6 +225,7 @@ header{
         }
         .product_box{
             width: 32.3%;
+            padding-right: 0;
         }
     }
     @media (min-width: 1000px) {
@@ -444,7 +445,8 @@ footer{
          
          @media (min-width: 550px){
              .product_box{
-                 width: 32%;
+                 width: 33%;
+                 margin: 0 auto;
              }
          }
     }
@@ -615,7 +617,7 @@ footer{
         .price-quantity{
             span.red{
                 @include fontsize(22);
-                color: red;
+                color: #e80f66;
             }
             span.small{
                 @include fontsize(14);
